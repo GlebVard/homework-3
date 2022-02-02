@@ -251,6 +251,7 @@ footer .logo {
 }
 
 .address {
+  margin-bottom: 9px;
   color: var(--primary-white-color);
   font-style: normal;
   font-weight: 400;
@@ -258,16 +259,21 @@ footer .logo {
   letter-spacing: 0.03em;
 }
 
-.footer-contacts {
+.footer-link {
+  display: block;
   color: var(--secondary-white-color);
   font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
-.footer-contacts:hover,
-.footer-contacts:focus {
+.footer-link:hover,
+.footer-link:focus {
   color: var(--accent-color);
+}
+
+.footer-contacts .item:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 /*portfolio*/
